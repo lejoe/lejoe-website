@@ -1,55 +1,17 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">lejoe-website</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <div class="lead">
+    <h1 class="text-3xl leading-8 font-extrabold py-8">
+      I'm Joël Bez,<br />a tech lead for digital products.
+    </h1>
+    <div class="text-xl leading-8 font-semibold py-8">
+      I help businesses develop user centered tools in a humane way and
+      considerate of the business reality.
     </div>
   </div>
 </template>
 
-<script>
-export default {}
-</script>
-
-<style>
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto font-sans;
-}
-
-.title {
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+<style scoped>
+.lead {
+  padding-top: 20vh;
 }
 </style>
