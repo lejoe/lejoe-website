@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        big: ['Raleway', ...defaultTheme.fontFamily.serif],
       },
       minHeight: {
         90: '90vh',

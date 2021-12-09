@@ -1,10 +1,8 @@
 <template>
-  <div class="px-6 sm:px-8 font-sans">
-    <div class="font-sans">
-      <div class="max-w-4xl mx-auto min-h-screen">
-        <div class="min-h-90">
-          <Nuxt />
-        </div>
+  <div class="pt-12 md:pt-16 lg:pt-32 px-6 md:px-8 md:px-12 font-sans">
+    <div class="max-w-4xl mx-auto min-h-screen">
+      <div class="min-h-90">
+        <Nuxt />
       </div>
     </div>
   </div>

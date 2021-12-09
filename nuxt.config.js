@@ -44,6 +44,7 @@ export default {
   googleFonts: {
     families: {
       Inter: true,
+      Raleway: [900],
     },
   },
 }
