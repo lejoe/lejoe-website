@@ -32,6 +32,7 @@ export default {
     '@nuxtjs/tailwindcss',
     // Doc: https://github.com/nuxt-community/google-fonts-module
     '@nuxtjs/google-fonts',
+    '@nuxt/postcss8',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
