@@ -3,7 +3,13 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   theme: {
     mode: 'jit',
-    purge: ['./**/*.{js,jsx,ts,tsx,vue}'],
+    purge: [
+      './components/**/*.{vue,js}',
+      './layouts/**/*.vue',
+      './pages/**/*.vue',
+      './plugins/**/*.{js,ts}',
+      './nuxt.config.{js,ts}',
+    ],
     extend: {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
