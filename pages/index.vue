@@ -52,6 +52,20 @@
           </div>
         </div>
       </div>
+      <h3 class="font-black font-big text-xl pb-5">CONTACT</h3>
+      <div class="pb-5">
+        <a href="mailto:contact@lejoe.com">contact@lejoe.com</a>
+      </div>
+    </div>
+    <div class="w-full flex justify-center">
+      <a href="https://twitter.com/lejoe" aria-label="Twitter profile"
+        >Twitter</a
+      >
+      <a href="https://linkedin.com/in/joelbez/" aria-label="LinkedIn profile"
+        >LinkedIn</a
+      >
+      <a href="https://github.com/lejoe" aria-label="Github profile">Github</a>
+      <a href="https://read.cv/lejoe" aria-label="CV">CV</a>
     </div>
   </div>
 </template>
