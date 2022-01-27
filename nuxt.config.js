@@ -43,10 +43,9 @@ export default {
   modules: [],
 
   publicRuntimeConfig: {
-    baseURL:
-      'https://' + process.env.NUXT_ENV_VERCEL_URL ||
-      process.env.BASE_URL ||
-      'http://localhost:3000',
+    baseURL: process.env.NUXT_ENV_VERCEL_URL
+      ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
+      : process.env.BASE_URL || 'http://localhost:3000',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
