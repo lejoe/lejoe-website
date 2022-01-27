@@ -96,4 +96,7 @@ sw.*
 *.swp
 
 # vscode
-.vscode/
+.vscode
+
+# RealFaviconGenerator files
+static/_favicons
