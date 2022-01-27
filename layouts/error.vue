@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <h1 v-if="error.statusCode === 404" class="text-2xl md:text-3xl font-black">Page not found</h1>
+    <h1 v-if="error.statusCode === 404" class="text-2xl md:text-3xl font-black">
+      Page not found
+    </h1>
     <h1 v-else class="text-2xl md:text-4xl font-black">An error occurred</h1>
 
     <h2 class="text-xl md:text-2xl font-black">
@@ -11,20 +13,16 @@
 </template>
 
 <script lang="ts">
-import {
-  PropType,
-} from '@nuxtjs/composition-api'
+import { PropType } from '@nuxtjs/composition-api'
 
-import {
-  NuxtError,
-} from '@nuxt/types'
+import { NuxtError } from '@nuxt/types'
 
 export default {
   props: {
     error: {
       type: Object as PropType<NuxtError>,
-      default: null
-    }
+      default: null,
+    },
   },
 }
 </script>
