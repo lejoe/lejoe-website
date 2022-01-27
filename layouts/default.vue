@@ -136,7 +136,7 @@ export default {
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
-          content: 'A screenshot of Joel Bez\'s personal website',
+          content: "A screenshot of Joel Bez's personal website",
         },
       ],
     }
