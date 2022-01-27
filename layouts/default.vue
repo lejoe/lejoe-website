@@ -10,7 +10,8 @@
 
 <script>
 import ogImageCover from '~/assets/img/og-image-cover.png'
-import ogImageAvatar from '~/assets/img/og-image-avatar.jpg'
+import ogImageAvatarFull from '~/assets/img/og-image-avatar-full.jpg'
+import ogImageAvatarSquare from '~/assets/img/og-image-avatar-square.jpg'
 
 export default {
   head() {
@@ -55,27 +56,27 @@ export default {
         {
           hid: 'og:image1',
           property: 'og:image',
-          content: this.$config.baseURL + ogImageAvatar,
+          content: this.$config.baseURL + ogImageAvatarFull,
         },
         {
-          hid: 'og:image2:width',
+          hid: 'og:image1:width',
           property: 'og:image:width',
           content: '1680',
         },
         {
-          hid: 'og:image:height',
+          hid: 'og:image1:height',
           property: 'og:image:height',
           content: '1260',
+        },
+        {
+          hid: 'og:image1:alt',
+          property: 'og:image:alt',
+          content: "Joel Bez's profile picture",
         },
         {
           hid: 'og:image2',
           property: 'og:image',
           content: this.$config.baseURL + ogImageCover,
-        },
-        {
-          hid: 'og:image:alt',
-          property: 'og:image:alt',
-          content: "A screenshot of Joel Bez's personal website",
         },
         {
           hid: 'profile:first_name',
@@ -131,12 +132,12 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.$config.baseURL + ogImageAvatar,
+          content: this.$config.baseURL + ogImageAvatarSquare,
         },
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
-          content: "A screenshot of Joel Bez's personal website",
+          content: "Joel Bez's profile picture",
         },
       ],
     }
