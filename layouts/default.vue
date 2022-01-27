@@ -1,7 +1,7 @@
 <template>
-  <div class="pt-12 md:pt-16 lg:pt-32 px-6 md:px-8 font-sans">
-    <div class="max-w-4xl mx-auto">
-      <div class="min-h-90">
+  <div class="pt-12 md:pt-24 lg:pt-32 px-6 sm:px-12 md:px-12 font-sans">
+    <div class="xl:max-w-5xl max-w-4xl mx-auto overflow-hidden">
+      <div class="">
         <main><Nuxt /></main>
         <footer><TheFooter /></footer>
       </div>

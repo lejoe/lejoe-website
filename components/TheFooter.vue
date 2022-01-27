@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center justify-center mb-12">
+  <nav class="flex items-center justify-center py-24">
     <a
       href="https://twitter.com/lejoe"
       class="mx-4"
