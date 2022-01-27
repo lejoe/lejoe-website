@@ -1,8 +1,9 @@
 <template>
-  <div class="pt-12 md:pt-16 lg:pt-32 px-6 md:px-8 md:px-12 font-sans">
+  <div class="pt-12 md:pt-16 lg:pt-32 px-6 md:px-8 font-sans">
     <div class="max-w-4xl mx-auto">
       <div class="min-h-90">
-        <Nuxt />
+        <main><Nuxt /></main>
+        <footer><TheFooter /></footer>
       </div>
     </div>
   </div>
