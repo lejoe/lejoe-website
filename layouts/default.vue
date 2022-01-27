@@ -8,6 +8,71 @@
   </div>
 </template>
 
+<script>
+import ogImage from '~/assets/img/og-image.png'
+
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'og:type',
+          name: 'og:type',
+          content: 'website',
+        },
+        {
+          hid: 'og:url',
+          name: 'og:url',
+          content: 'https://lejoe.com',
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Joel Bez | Technical project lead',
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'I lead and coach multidisciplinary teams to build digital products with more impact.',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$config.baseURL + ogImage,
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+        {
+          hid: 'twitter:url',
+          name: 'twitter:url',
+          content: 'https://lejoe.com',
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Joel Bez | Technical project lead',
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'I lead and coach multidisciplinary teams to build digital products with more impact.',
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.$config.baseURL + ogImage,
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -31,3 +96,5 @@ a {
   text-decoration: underline;
 }
 </style>
+
+

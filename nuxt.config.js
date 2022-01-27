@@ -4,14 +4,19 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'lejoe-website',
+    title: 'Joel Bez | Technical project lead',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'I lead and coach multidisciplinary teams to build digital products with more impact.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -36,6 +41,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
+
+  publicRuntimeConfig: {
+    baseURL:
+      process.env.VERCEL_URL || process.env.BASE_URL || 'http://localhost:3000',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
