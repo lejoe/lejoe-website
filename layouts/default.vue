@@ -9,12 +9,28 @@
 </template>
 
 <script>
-import ogImage from '~/assets/img/og-image.png'
+import ogImageCover from '~/assets/img/og-image-cover.png'
+import ogImageAvatar from '~/assets/img/og-image-avatar.jpg'
 
 export default {
   head() {
     return {
       meta: [
+        {
+          hid: 'fb:admins',
+          name: 'fb:admins',
+          content: '502175715',
+        },
+        {
+          hid: 'og:locale',
+          name: 'og:locale',
+          content: 'en_US',
+        },
+        {
+          hid: 'og:type',
+          name: 'og:type',
+          content: 'website',
+        },
         {
           hid: 'og:type',
           name: 'og:type',
@@ -37,14 +53,64 @@ export default {
             'I lead and coach multidisciplinary teams to build digital products with more impact.',
         },
         {
-          hid: 'og:image',
+          hid: 'og:image1',
           property: 'og:image',
-          content: this.$config.baseURL + ogImage,
+          content: this.$config.baseURL + ogImageAvatar,
+        },
+        {
+          hid: 'og:image2:width',
+          property: 'og:image:width',
+          content: '1680',
+        },
+        {
+          hid: 'og:image:height',
+          property: 'og:image:height',
+          content: '1260',
+        },
+        {
+          hid: 'og:image2',
+          property: 'og:image',
+          content: this.$config.baseURL + ogImageCover,
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: "A screenshot of Joel Bez's personal website",
+        },
+        {
+          hid: 'profile:first_name',
+          property: 'profile:first_name',
+          content: 'Joel',
+        },
+        {
+          hid: 'profile:last_name',
+          property: 'profile:last_name',
+          content: 'Bez',
+        },
+        {
+          hid: 'profile:username',
+          property: 'profile:username',
+          content: 'lejoe',
+        },
+        {
+          hid: 'profile:last_name',
+          property: 'profile:last_name',
+          content: 'Bez',
         },
         {
           hid: 'twitter:card',
           name: 'twitter:card',
-          content: 'summary_large_image',
+          content: 'summary',
+        },
+        {
+          hid: 'twitter:site',
+          name: 'twitter:site',
+          content: '@lejoe',
+        },
+        {
+          hid: 'twitter:creator',
+          name: 'twitter:creator',
+          content: '@lejoe',
         },
         {
           hid: 'twitter:url',
@@ -65,7 +131,12 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.$config.baseURL + ogImage,
+          content: this.$config.baseURL + ogImageAvatar,
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: "A screenshot of Joel Bez's personal website",
         },
       ],
     }
