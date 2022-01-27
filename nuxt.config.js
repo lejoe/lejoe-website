@@ -1,3 +1,5 @@
+import * as faviconDescription from './realfavicongenerator.config.json'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -40,7 +42,17 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    [
+      'nuxt-rfg-icon',
+      {
+        static: true,
+        staticPath: '/_favicons/',
+        masterPicture: 'static/favicon.png',
+        rfg: faviconDescription,
+      },
+    ],
+  ],
 
   publicRuntimeConfig: {
     baseURL: process.env.NUXT_ENV_VERCEL_URL
