@@ -54,6 +54,7 @@ export default {
         rfg: faviconDescription,
       },
     ],
+    '@nuxtjs/sitemap',
     '@nuxtjs/robots',
   ],
 
@@ -79,5 +80,18 @@ export default {
       Prompt: [900],
       'Source+Sans+Pro': [400],
     },
+  },
+
+  sitemap: {
+    hostname: process.env.NUXT_ENV_VERCEL_URL
+      ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
+      : process.env.BASE_URL || 'http://localhost:3000',
+  },
+
+  robots: {
+    sitemap:
+      (process.env.NUXT_ENV_VERCEL_URL
+        ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
+        : process.env.BASE_URL || 'http://localhost:3000') + '/sitemap.xml',
   },
 }
