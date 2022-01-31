@@ -54,6 +54,7 @@ export default {
         rfg: faviconDescription,
       },
     ],
+    '@nuxtjs/robots',
   ],
 
   publicRuntimeConfig: {
