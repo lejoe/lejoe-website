@@ -39,6 +39,8 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    // https://google-fonts.nuxtjs.org
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -67,6 +69,14 @@ export default {
         tailwindcss: {},
         autoprefixer: {},
       },
+    },
+  },
+
+  googleFonts: {
+    download: true,
+    families: {
+      Prompt: [900],
+      'Source+Sans+Pro': [400],
     },
   },
 }
