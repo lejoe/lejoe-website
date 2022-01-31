@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <section>
     <h3 class="font-black font-big text-xl pb-6">CONTACT</h3>
-    <div>
+    <address>
       <a href="mailto:contact@lejoe.com">contact@lejoe.com</a>
-    </div>
-  </div>
+    </address>
+  </section>
 </template>
