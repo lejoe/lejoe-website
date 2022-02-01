@@ -15,6 +15,12 @@ import ogImageAvatarSquare from '~/assets/img/og-image-avatar-square.jpg'
 export default {
   head() {
     return {
+      link: [
+        {
+          rel: 'canonical',
+          href: this.$config.baseURL + this.$route.path,
+        },
+      ],
       meta: [
         {
           hid: 'fb:admins',
