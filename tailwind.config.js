@@ -11,8 +11,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Source Sans Pro', ...defaultTheme.fontFamily.sans],
-        big: ['Prompt', ...defaultTheme.fontFamily.serif],
+        sans: [
+          'Source Sans Pro',
+          'source-sans-pro-fallback',
+          ...defaultTheme.fontFamily.sans,
+        ],
+        big: ['Prompt', 'prompt-fallback', ...defaultTheme.fontFamily.serif],
       },
     },
   },

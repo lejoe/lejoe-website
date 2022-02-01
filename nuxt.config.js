@@ -81,6 +81,7 @@ export default {
 
   googleFonts: {
     download: true,
+    display: 'optional',
     families: {
       Prompt: [900],
       'Source+Sans+Pro': [400],

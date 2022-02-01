@@ -31,4 +31,22 @@
   a {
     text-decoration: underline;
   }
+
+  @font-face {
+    font-family: prompt-fallback;
+    ascent-override: 109%;
+    descent-override: 42%;
+    line-gap-override: normal;
+    advance-override: 100;
+    src: local(Arial Black);
+  }
+
+  @font-face {
+    font-family: source-sans-pro-fallback;
+    ascent-override: 98.4%;
+    descent-override: 27.3%;
+    line-gap-override: normal;
+    advance-override: 220;
+    src: local(Times);
+  }
 }
