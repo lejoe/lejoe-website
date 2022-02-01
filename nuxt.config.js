@@ -1,9 +1,17 @@
 import * as faviconDescription from './realfavicongenerator.config.json'
 
+console.log('process.env.BASE_URL: ' + process.env.BASE_URL)
+console.log(
+  'process.env.NUXT_ENV_VERCEL_URL: ' + process.env.NUXT_ENV_VERCEL_URL
+)
+console.log('process.env.NUXT_ENV_BASE_URL: ' + process.env.NUXT_ENV_BASE_URL)
+
 const baseURL =
   process.env.BASE_URL || process.env.NUXT_ENV_VERCEL_URL
     ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
     : 'http://localhost:3000'
+
+console.log(baseURL)
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -86,8 +94,11 @@ export default {
     },
   },
 
-  sitemap: {
-    hostname: baseURL,
+  sitemap: () => {
+    console.log('inside: ' + baseURL)
+    return {
+      hostname: baseURL,
+    }
   },
 
   robots: {
