@@ -8,7 +8,8 @@ const baseURL =
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  // Opt out of nuxt analytics https://nuxtjs.org/docs/configuration-glossary/configuration-telemetry/
+  telemetry: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Joel Bez | Technical project lead',
