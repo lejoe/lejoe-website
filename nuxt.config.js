@@ -6,10 +6,11 @@ console.log(
 )
 console.log('process.env.NUXT_ENV_BASE_URL: ' + process.env.NUXT_ENV_BASE_URL)
 
-const baseURL =
-  process.env.BASE_URL || process.env.NUXT_ENV_VERCEL_URL
-    ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
-    : 'http://localhost:3000'
+const baseURL = process.env.BASE_URL
+  ? process.env.BASE_URL
+  : process.env.NUXT_ENV_VERCEL_URL
+  ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
+  : 'http://localhost:3000'
 
 console.log(baseURL)
 
