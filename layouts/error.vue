@@ -21,6 +21,7 @@ import { PropType } from '@nuxtjs/composition-api'
 import { NuxtError } from '@nuxt/types'
 
 export default {
+  layout: 'naked',
   props: {
     error: {
       type: Object as PropType<NuxtError>,
