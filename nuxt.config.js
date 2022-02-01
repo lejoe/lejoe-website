@@ -48,6 +48,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://google-fonts.nuxtjs.org
     '@nuxtjs/google-fonts',
+    // https://pwa.nuxtjs.org
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -56,7 +58,7 @@ export default {
       'nuxt-rfg-icon',
       {
         static: true,
-        staticPath: '/_favicons/',
+        staticPath: '_favicons/',
         masterPicture: 'static/favicon.png',
         rfg: faviconDescription,
       },
@@ -94,5 +96,28 @@ export default {
 
   robots: {
     sitemap: baseURL + '/sitemap.xml',
+  },
+
+  pwa: {
+    meta: {
+      ogSiteName: false,
+      charset: false,
+      favicon: false,
+    },
+    icon: {
+      source: 'static/_favicons/android-chrome-512x512.png',
+      fileName: 'icon.png',
+      targetDir: '_pwaicons',
+      pluginName: '$pwaicon',
+    },
+    manifest: {
+      theme_color: '#000',
+      background_color: '#fff',
+      name: 'Joel Bez',
+      short_name: 'lejoe.com',
+      start_url: '/?standalone=true&utm_source=app',
+      description:
+        'I lead and coach multidisciplinary teams to build digital products with more impact.',
+    },
   },
 }
