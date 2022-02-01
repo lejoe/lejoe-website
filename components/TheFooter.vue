@@ -1,8 +1,5 @@
 <template>
-  <nav
-    class="flex items-center justify-center py-24"
-    aria-labelledby="social-links"
-  >
+  <nav class="flex items-center justify-center py-24">
     <a
       href="https://twitter.com/lejoe"
       class="mx-4"
