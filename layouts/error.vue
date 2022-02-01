@@ -1,9 +1,12 @@
 <template>
   <div class="container">
-    <h1 v-if="error.statusCode === 404" class="text-2xl md:text-3xl font-black">
-      Page not found
+    <h1
+      v-if="error.statusCode === 404"
+      class="font-big text-3xl md:text-4xl font-black"
+    >
+      PAGE NOT FOUND
     </h1>
-    <h1 v-else class="text-2xl md:text-4xl font-black">An error occurred</h1>
+    <h1 v-else class="text-2xl md:text-3xl">An error occurred</h1>
 
     <h2 class="text-xl md:text-2xl font-black">
       Back to
