@@ -38,7 +38,7 @@
     descent-override: 42%;
     line-gap-override: normal;
     advance-override: 100;
-    src: local(Arial Black);
+    src: local('Arial Black');
   }
 
   @font-face {
