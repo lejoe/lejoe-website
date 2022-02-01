@@ -1,5 +1,10 @@
 import * as faviconDescription from './realfavicongenerator.config.json'
 
+const baseURL =
+  process.env.BASE_URL || process.env.NUXT_ENV_VERCEL_URL
+    ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
+    : 'http://localhost:3000'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -59,9 +64,7 @@ export default {
   ],
 
   publicRuntimeConfig: {
-    baseURL: process.env.NUXT_ENV_VERCEL_URL
-      ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
-      : process.env.BASE_URL || 'http://localhost:3000',
+    baseURL,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -83,15 +86,10 @@ export default {
   },
 
   sitemap: {
-    hostname: process.env.NUXT_ENV_VERCEL_URL
-      ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
-      : process.env.BASE_URL || 'http://localhost:3000',
+    hostname: baseURL,
   },
 
   robots: {
-    sitemap:
-      (process.env.NUXT_ENV_VERCEL_URL
-        ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
-        : process.env.BASE_URL || 'http://localhost:3000') + '/sitemap.xml',
+    sitemap: baseURL + '/sitemap.xml',
   },
 }
