@@ -36,9 +36,10 @@
           development.
         </div>
         <div>
-          From ActionScript to typescript, from front end to DevOps via back
-          end, from learning to leading and coaching, I’ve had seen it all in
-          the last 20+ years in web development.
+          In 20+ years in web development, I've had the chance to craft my
+          skills to deliver quality and high value code. I specialize in
+          front-end development and its connections to other fields like
+          research, design, backend, DevOps, marketing.
         </div>
       </aside>
     </div>
