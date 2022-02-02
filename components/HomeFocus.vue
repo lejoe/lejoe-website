@@ -39,7 +39,7 @@
           In 20+ years in web development, I've had the chance to craft my
           skills to deliver quality and high value code. I specialize in
           front-end development and its connections to other fields like
-          research, design, backend, DevOps, marketing.
+          research, design, backend, DevOps and marketing.
         </div>
       </aside>
     </div>
