@@ -7,21 +7,20 @@
       <aside>
         <h4 class="text-xl pb-4">Project management</h4>
         <div class="pb-2">
-          I help aligning teams behind a common vision and creating a
-          collaborative culture.
+          I help align teams behind a shared vision and create a collaborative
+          culture.
         </div>
         <div>
           I apply principles and good practices I gathered from the dozens of
-          projects and team setups I had the opportunity to take part in. Some
-          of my inspirations are lean and agile development, shape up and teal
+          projects and team setups I had the opportunity to contribute to. My
+          inspirations are lean and agile development, shape up and teal
           organizations.
         </div>
       </aside>
       <aside>
         <h4 class="text-xl pb-4">Design driven</h4>
         <div class="pb-2">
-          I help delivering better products by advocating for a more
-          user-centered approach to development.
+          I advocate for a more user-centered approach to development.
         </div>
         <div>
           I'm passionate about optimizing the transition from concept to
@@ -33,7 +32,7 @@
       <aside>
         <h4 class="text-xl pb-4">Development expertise</h4>
         <div class="pb-2">
-          I help finding the sweet spot between quality and pragmatism in
+          I help find the sweet spot between quality and pragmatism in
           development.
         </div>
         <div>
