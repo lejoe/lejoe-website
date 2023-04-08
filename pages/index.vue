@@ -1,4 +1,3 @@
-<!-- eslint-disable no-console -->
 <template>
   <div>
     <div class="pb-24">
@@ -16,6 +15,7 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'IndexPage',
   mounted() {
+    // eslint-disable-next-line no-console
     console.info("Hi! Wondering why there is no styles?")
     console.info("Well… it's…")
     console.info(`
