@@ -103,6 +103,3 @@ static/_favicons
 
 # Generated css file for fonts
 assets/css/fonts.css
-
-# Temporary ignore for CSS naked day
-pages/index.vue
