@@ -1,5 +1,12 @@
 <template>
   <nav class="flex items-center justify-center py-24">
+    <NuxtLink
+      v-if="$route.path !== '/'"
+      to="/"
+      class="mx-4"
+      aria-label="Back to home"
+      >Me</NuxtLink
+    >
     <a
       href="https://mastodon.social/@lejoe"
       class="mx-4"
