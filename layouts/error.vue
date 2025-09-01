@@ -15,18 +15,21 @@
   </div>
 </template>
 
-<script lang="ts">
-import { PropType } from '@nuxtjs/composition-api'
-
-import { NuxtError } from '@nuxt/types'
-
-export default {
-  layout: 'naked',
-  props: {
-    error: {
-      type: Object as PropType<NuxtError>,
-      default: null,
-    },
-  },
+<script setup lang="ts">
+interface NuxtError {
+  statusCode: number
+  statusMessage?: string
+  message?: string
 }
+
+interface Props {
+  error: NuxtError
+}
+
+const props = defineProps<Props>()
+
+// Use naked layout
+definePageMeta({
+  layout: 'naked'
+})
 </script>

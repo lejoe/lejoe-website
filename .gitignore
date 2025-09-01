@@ -65,10 +65,11 @@ typings/
 # next.js build output
 .next
 
-# nuxt.js build output
+# Nuxt build outputs
 .nuxt
+.output
 
-# Nuxt generate
+# Nuxt 2 generate (legacy)
 dist
 
 # vuepress build output
@@ -91,3 +92,20 @@ sw.*
 
 # Nuxt service worker
 sw.*
+
+# Additional Nuxt 3 entries
+.env.*
+!.env.example
+.nitro
+.vercel
+.netlify
+
+# Editor directories and files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# TypeScript cache
+*.tsbuildinfo

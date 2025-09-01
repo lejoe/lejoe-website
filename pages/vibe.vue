@@ -9,23 +9,10 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'VibePage',
-  head() {
-    return {
-      title: 'Joel Bez | Vibe Code Fest 2025',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'Thanks for attending my talk at Vibe Code Fest! Download my slides and learn about my next speaking engagement.',
-        },
-      ],
-    }
-  },
+<script setup lang="ts">
+// Page SEO
+useSeoMeta({
+  title: 'Joel Bez | Vibe Code Fest 2025',
+  description: 'Thanks for attending my talk at Vibe Code Fest! Download my slides and learn about my next speaking engagement.',
 })
 </script>
-</template>
