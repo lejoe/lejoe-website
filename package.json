@@ -17,7 +17,7 @@
   "dependencies": {
     "@nuxtjs/robots": "^4.0.2",
     "@nuxtjs/sitemap": "^6.1.1",
-    "nuxt": "^3.14.159"
+    "nuxt": "^4.6.2"
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.7.4",
