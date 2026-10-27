@@ -1,9 +1,14 @@
 <template>
   <div>
-    <h1 class="text-3xl sm:text-4xl font-black font-big">VIBE CODE FEST 2025</h1>
-    <h2 class="text-2xl sm:text-3xl pb-6">7 Tips to Level Up Your Vibe Coding Game</h2>
+    <h1 class="text-3xl sm:text-4xl font-black font-big">
+      VIBE CODE FEST 2025
+    </h1>
+    <h2 class="text-2xl sm:text-3xl pb-6">
+      7 Tips to Level Up Your Vibe Coding Game
+    </h2>
     <div class="sm:text-3xl text-2xl pb-8">
-      Thanks for attending my talk! Hope you enjoyed the session. Here you can download my slides and stay connected.
+      Thanks for attending my talk! Hope you enjoyed the session. Here you can
+      download my slides and stay connected.
     </div>
 
     <!-- Download Button -->
@@ -19,5 +24,3 @@
     </div>
   </div>
 </template>
-
-

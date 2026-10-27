@@ -73,6 +73,7 @@ typings/
 
 # nuxt.js build output
 .nuxt
+.output
 
 # Nuxt generate
 dist
@@ -99,7 +100,7 @@ sw.*
 .vscode
 
 # RealFaviconGenerator files
-static/_favicons
+public/_favicons
 
 # Generated css file for fonts
 assets/css/fonts.css

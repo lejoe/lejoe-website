@@ -7,10 +7,14 @@
       <aside>
         <h4 class="text-xl pb-4">Build</h4>
         <div class="pb-2">
-          I use the latest AI coding advances to build reliable, high-value software.
+          I use the latest AI coding advances to build reliable, high-value
+          software.
         </div>
         <div>
-          I research and experiment with the newest agent techniques. I test them in real projects to see what actually works. I optimize context, fine-tune prompts, and design workflows that cut waste. The result: software delivered faster, with higher quality and real value.
+          I research and experiment with the newest agent techniques. I test
+          them in real projects to see what actually works. I optimize context,
+          fine-tune prompts, and design workflows that cut waste. The result:
+          software delivered faster, with higher quality and real value.
         </div>
       </aside>
       <aside>
@@ -19,7 +23,11 @@
           I empower developers and teams to make AI their advantage.
         </div>
         <div>
-          I teach the fundamentals of AI for coding and help teams go deep. We uncover the real value beyond the hype and learn how to apply it where it matters. I show why AI is not a threat but a powerful opportunity. With constant research and hands-on experience, I fast-forward the learning curve and turn uncertainty into confidence.
+          I teach the fundamentals of AI for coding and help teams go deep. We
+          uncover the real value beyond the hype and learn how to apply it where
+          it matters. I show why AI is not a threat but a powerful opportunity.
+          With constant research and hands-on experience, I fast-forward the
+          learning curve and turn uncertainty into confidence.
         </div>
       </aside>
       <aside>
