@@ -1,8 +1,8 @@
 const baseURL = process.env.BASE_URL
   ? process.env.BASE_URL
   : process.env.NUXT_ENV_VERCEL_URL
-  ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
-  : 'http://localhost:3000'
+    ? 'https://' + process.env.NUXT_ENV_VERCEL_URL
+    : 'http://localhost:3000'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -20,14 +20,14 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
   ],
 
   // Runtime config
   runtimeConfig: {
     public: {
-      baseURL
-    }
+      baseURL,
+    },
   },
 
   // App configuration (replaces head in Nuxt 2)
@@ -49,12 +49,30 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/_favicons/favicon.ico' },
-        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/_favicons/favicon-32x32.png' },
-        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/_favicons/favicon-16x16.png' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/_favicons/apple-touch-icon.png' },
-        { rel: 'mask-icon', href: '/_favicons/safari-pinned-tab.svg', color: '#000000' },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '32x32',
+          href: '/_favicons/favicon-32x32.png',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '16x16',
+          href: '/_favicons/favicon-16x16.png',
+        },
+        {
+          rel: 'apple-touch-icon',
+          sizes: '180x180',
+          href: '/_favicons/apple-touch-icon.png',
+        },
+        {
+          rel: 'mask-icon',
+          href: '/_favicons/safari-pinned-tab.svg',
+          color: '#000000',
+        },
       ],
-    }
+    },
   },
 
   // PostCSS configuration

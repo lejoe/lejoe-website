@@ -21,7 +21,8 @@ useSeoMeta({
   ogType: 'website',
   ogUrl: 'https://lejoe.com',
   ogTitle: 'Joel Bez | AI-assisted coding expert',
-  ogDescription: 'AI-assisted coding expert. I build with AI and coach teams to do the same.',
+  ogDescription:
+    'AI-assisted coding expert. I build with AI and coach teams to do the same.',
   ogImage: [
     {
       url: config.public.baseURL + ogImageAvatarFull,
@@ -31,7 +32,7 @@ useSeoMeta({
     },
     {
       url: config.public.baseURL + ogImageCover,
-    }
+    },
   ],
   profileFirstName: 'Joel',
   profileLastName: 'Bez',
@@ -40,7 +41,8 @@ useSeoMeta({
   twitterSite: '@lejoe',
   twitterCreator: '@lejoe',
   twitterTitle: 'Joel Bez | AI-assisted coding expert',
-  twitterDescription: 'AI-assisted coding expert. I build with AI and coach teams to do the same.',
+  twitterDescription:
+    'AI-assisted coding expert. I build with AI and coach teams to do the same.',
   twitterImage: config.public.baseURL + ogImageAvatarSquare,
   twitterImageAlt: "Joel Bez's profile picture",
 })

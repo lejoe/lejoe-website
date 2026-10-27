@@ -13,6 +13,7 @@
 // Page SEO
 useSeoMeta({
   title: 'Joel Bez | Vibe Code Fest 2025',
-  description: 'Thanks for attending my talk at Vibe Code Fest! Download my slides and learn about my next speaking engagement.',
+  description:
+    'Thanks for attending my talk at Vibe Code Fest! Download my slides and learn about my next speaking engagement.',
 })
 </script>

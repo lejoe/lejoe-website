@@ -2,14 +2,17 @@
   <section>
     <h3 class="font-black font-big text-xl pb-6">NEXT TALK</h3>
     <div class="pb-4">
-      <h4 class="text-xl pb-4">on {ai}r | Coding with AI: What You Need to Learn, Unlearn, and Rethink</h4>
+      <h4 class="text-xl pb-4">
+        on {ai}r | Coding with AI: What You Need to Learn, Unlearn, and Rethink
+      </h4>
       <div class="pb-4">
         <strong>Swiss {ai} Weeks</strong> - September 23, 2025 | 18:30–19:15
       </div>
       <div class="pb-6">
-        Join me for an in-depth exploration of how AI is reshaping the developer experience.
-        We'll dive into the skills that matter in AI-assisted workflows, old habits that
-        might be holding you back, and how to rethink your developer mindset for the future.
+        Join me for an in-depth exploration of how AI is reshaping the developer
+        experience. We'll dive into the skills that matter in AI-assisted
+        workflows, old habits that might be holding you back, and how to rethink
+        your developer mindset for the future.
       </div>
       <div class="pt-4">
         <a
