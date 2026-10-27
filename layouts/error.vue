@@ -26,7 +26,7 @@ interface Props {
   error: NuxtError
 }
 
-const props = defineProps<Props>()
+defineProps<Props>()
 
 // Use naked layout
 definePageMeta({
