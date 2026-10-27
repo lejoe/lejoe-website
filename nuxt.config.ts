@@ -33,7 +33,7 @@ export default defineNuxtConfig({
   // App configuration (replaces head in Nuxt 2)
   app: {
     head: {
-      title: 'Joel Bez | Technical project lead',
+      title: 'Joel Bez | AI-assisted coding expert',
       htmlAttrs: {
         lang: 'en',
       },
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'I lead and coach multidisciplinary teams to build digital products with more impact.',
+            'AI-assisted coding expert. I build with AI and coach teams to do the same.',
         },
         { name: 'format-detection', content: 'telephone=no' },
       ],
@@ -95,7 +95,7 @@ export default defineNuxtConfig({
       background_color: '#fff',
       start_url: '/?standalone=true&utm_source=app',
       description:
-        'I lead and coach multidisciplinary teams to build digital products with more impact.',
+        'AI-assisted coding expert. I build with AI and coach teams to do the same.',
     },
   },
 })
