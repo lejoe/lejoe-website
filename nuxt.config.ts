@@ -23,6 +23,11 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
   ],
 
+  // Shareable by direct URL only: keep out of search indexes and sitemap
+  routeRules: {
+    '/portfolio': { robots: false },
+  },
+
   // Runtime config
   runtimeConfig: {
     public: {
