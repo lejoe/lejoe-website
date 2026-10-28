@@ -42,7 +42,7 @@ const projects: Project[] = [
       'As Frontend Lead, I rebuilt the entire SwissGPT web app in three months as part of a product relaunch and rebranding.',
     link: {
       href: 'https://alpineai.swiss/en/product/',
-      label: 'SwissGPT product description',
+      label: 'SwissGPT',
     },
   },
   {
