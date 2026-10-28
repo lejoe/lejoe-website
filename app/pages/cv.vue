@@ -1,21 +1,30 @@
 <template>
   <div>
-    <section class="pt-12 pb-12">
+    <section class="pt-12 pb-12 print:pt-0 print:pb-4">
       <h1 class="font-black font-big text-4xl pb-2">Joel Bez</h1>
       <div>Zürich, Switzerland</div>
+      <div class="hidden print:block">contact@lejoe.com · lejoe.com</div>
     </section>
 
-    <section v-for="section in sections" :key="section.title" class="py-12">
-      <h3 class="font-black font-big text-xl pb-6">{{ section.title }}</h3>
-      <div class="grid grid-cols-1 gap-y-10">
+    <section
+      v-for="section in sections"
+      :key="section.title"
+      class="py-12 print:py-3"
+    >
+      <h2 class="font-black font-big text-xl pb-6 print:pb-3">
+        {{ section.title }}
+      </h2>
+      <div class="grid grid-cols-1 gap-y-10 print:gap-y-3">
         <article
           v-for="item in section.items"
           :key="item.place + item.years"
-          class="grid grid-cols-1 md:grid-cols-4 md:gap-x-6"
+          class="grid grid-cols-1 md:grid-cols-4 md:gap-x-6 print:grid-cols-[7rem_1fr] print:gap-x-6"
         >
           <div class="text-gray-600 pb-1">{{ item.years }}</div>
-          <div class="md:col-span-3">
-            <h4 class="text-xl">{{ item.role || item.place }}</h4>
+          <div class="md:col-span-3 print:col-span-1">
+            <h3 class="text-xl print:text-lg">
+              {{ item.role || item.place }}
+            </h3>
             <div class="pb-2">
               <strong v-if="item.role">
                 <a

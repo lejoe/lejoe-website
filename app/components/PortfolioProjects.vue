@@ -1,8 +1,8 @@
 <template>
   <section>
-    <h2 class="font-black font-big text-xl pb-6">SELECTED WORK</h2>
+    <h2 class="font-black font-big text-xl pb-6 print:pb-3">SELECTED WORK</h2>
     <div
-      class="grid grid-cols-1 xl:gap-x-24 lg:gap-x-12 gap-x-6 gap-y-12 md:grid-cols-3"
+      class="grid grid-cols-1 xl:gap-x-24 lg:gap-x-12 gap-x-6 gap-y-12 md:grid-cols-3 print:grid-cols-3 print:gap-x-6"
     >
       <article v-for="project in projects" :key="project.client">
         <h3 class="text-xl">{{ project.client }}</h3>

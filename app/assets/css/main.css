@@ -23,6 +23,35 @@
   --color-gray-950: #030712;
 }
 
+/* Print: A4 pages, smaller type, no entries split across pages */
+@page {
+  size: A4;
+  margin: 16mm 18mm;
+}
+
+@media print {
+  html {
+    font-size: 13px !important;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none !important;
+  }
+
+  article,
+  li {
+    break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+  }
+}
+
 /* Keep Tailwind 3 hover behaviour (v4 only applies hover: on devices that support hover) */
 @custom-variant hover (&:hover);
 
