@@ -109,3 +109,6 @@ sw.*
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Claude Code worktrees
+.claude/worktrees/
