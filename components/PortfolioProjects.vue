@@ -1,11 +1,11 @@
 <template>
   <section>
-    <h3 class="font-black font-big text-xl pb-6">SELECTED WORK</h3>
+    <h2 class="font-black font-big text-xl pb-6">SELECTED WORK</h2>
     <div
       class="grid grid-cols-1 xl:gap-x-24 lg:gap-x-12 gap-x-6 gap-y-12 md:grid-cols-3"
     >
       <article v-for="project in projects" :key="project.client">
-        <h4 class="text-xl">{{ project.client }}</h4>
+        <h3 class="text-xl">{{ project.client }}</h3>
         <div class="pb-4 text-gray-600">
           {{ project.title }} · {{ project.years }}
         </div>

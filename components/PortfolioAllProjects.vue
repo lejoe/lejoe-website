@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h3 class="font-black font-big text-xl pb-6">PROJECT HISTORY</h3>
+    <h2 class="font-black font-big text-xl pb-6">PROJECT HISTORY</h2>
     <ul class="grid grid-cols-1 gap-y-8">
       <li
         v-for="project in projects"
@@ -8,7 +8,7 @@
         class="grid grid-cols-1 md:grid-cols-[10rem_1fr] gap-x-6 gap-y-1"
       >
         <div>
-          <h4 class="text-xl">
+          <h3 class="text-xl">
             <a
               v-if="project.link"
               :href="project.link"
@@ -19,7 +19,7 @@
               }}<span class="sr-only"> (opens in a new tab)</span></a
             >
             <template v-else>{{ project.client }}</template>
-          </h4>
+          </h3>
           <div class="text-gray-600">{{ project.years }}</div>
         </div>
         <div>
