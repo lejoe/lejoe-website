@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h3 class="font-black font-big text-xl pb-6">ALL PROJECTS</h3>
+    <h3 class="font-black font-big text-xl pb-6">PROJECT HISTORY</h3>
     <ul class="grid grid-cols-1 gap-y-8">
       <li
         v-for="project in projects"
