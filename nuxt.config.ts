@@ -1,3 +1,5 @@
+import tailwindcss from '@tailwindcss/vite'
+
 const baseURL = process.env.BASE_URL
   ? process.env.BASE_URL
   : process.env.NUXT_ENV_VERCEL_URL
@@ -10,6 +12,11 @@ export default defineNuxtConfig({
   telemetry: false,
 
   devtools: { enabled: true },
+
+  // Keep inlining global CSS into the HTML, as Nuxt 3 did
+  features: {
+    inlineStyles: true,
+  },
 
   // Global CSS
   css: ['~/assets/css/main.css'],
@@ -80,12 +87,9 @@ export default defineNuxtConfig({
     },
   },
 
-  // PostCSS configuration
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+  // Tailwind CSS
+  vite: {
+    plugins: [tailwindcss()],
   },
 
   // Google Fonts configuration
@@ -106,6 +110,8 @@ export default defineNuxtConfig({
   // Robots configuration
   robots: {
     sitemap: baseURL + '/sitemap.xml',
+    // Keep listing noindex routes (e.g. /portfolio) as Disallow in robots.txt
+    disallowNonIndexableRoutes: true,
   },
 
   // PWA configuration

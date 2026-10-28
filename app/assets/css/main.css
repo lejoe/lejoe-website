@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans:
+    'Source Sans Pro', source-sans-pro-fallback, ui-sans-serif, system-ui,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  --font-big:
+    'Prompt', prompt-fallback, ui-serif, 'Georgia', 'Cambria',
+    'Times New Roman', 'Times', serif;
+
+  /* Keep the Tailwind 3 gray palette (v4 switched to OKLCH values) */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  --color-gray-950: #030712;
+}
+
+/* Keep Tailwind 3 hover behaviour (v4 only applies hover: on devices that support hover) */
+@custom-variant hover (&:hover);
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@layer base {
+  ::selection {
+    /* Tailwind 3 teal-200 */
+    background: #99f6e4;
+  }
+
+  :root {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    font-family:
+      'Source Sans Pro',
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      'Helvetica Neue',
+      Arial,
+      sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  @font-face {
+    font-family: prompt-fallback;
+    ascent-override: 109%;
+    descent-override: 42%;
+    line-gap-override: normal;
+    src: local('Arial Black');
+  }
+
+  @font-face {
+    font-family: source-sans-pro-fallback;
+    ascent-override: 98.4%;
+    descent-override: 27.3%;
+    line-gap-override: normal;
+    src: local('Times');
+  }
+}

@@ -101,6 +101,3 @@ sw.*
 
 # RealFaviconGenerator files
 public/_favicons
-
-# Generated css file for fonts
-assets/css/fonts.css
