@@ -25,7 +25,18 @@
                   rel="noopener noreferrer"
                   class="hover:text-gray-600 transition-colors duration-200"
                   >{{ item.place }}</a
-                ><template v-else>{{ item.place }}</template>
+                ><template v-else>{{ item.place }}</template
+                ><template v-if="item.client">
+                  for
+                  <a
+                    v-if="item.clientUrl"
+                    :href="item.clientUrl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-gray-600 transition-colors duration-200"
+                    >{{ item.client }}</a
+                  ><template v-else>{{ item.client }}</template></template
+                >
               </strong>
               <span v-if="item.role && item.location"> · </span>
               <span v-if="item.location">{{ item.location }}</span>
@@ -51,6 +62,8 @@ interface CvItem {
   years: string
   role?: string
   place: string
+  client?: string
+  clientUrl?: string
   url?: string
   location?: string
   description?: string
@@ -162,7 +175,9 @@ const sections: { title: string; items: CvItem[] }[] = [
       {
         years: '2011',
         role: 'Technical Product Owner',
-        place: 'Liip for Local.ch',
+        place: 'Liip',
+        client: 'local.ch',
+        clientUrl: 'https://www.local.ch',
         url: 'https://liip.ch',
         location: 'Zürich',
         description:
@@ -171,7 +186,9 @@ const sections: { title: string; items: CvItem[] }[] = [
       {
         years: '2009 – 2010',
         role: 'Senior Full-stack Software Engineer & Project Lead',
-        place: 'Liip for Local.ch',
+        place: 'Liip',
+        client: 'local.ch',
+        clientUrl: 'https://www.local.ch',
         url: 'https://www.liip.ch',
         location: 'Zürich',
         description:
@@ -191,7 +208,9 @@ const sections: { title: string; items: CvItem[] }[] = [
       {
         years: '2007 – 2009',
         role: 'Full-stack Software Engineer',
-        place: 'Liip for Local.ch',
+        place: 'Liip',
+        client: 'local.ch',
+        clientUrl: 'https://www.local.ch',
         url: 'https://www.liip.ch',
         location: 'Zürich',
         description:
