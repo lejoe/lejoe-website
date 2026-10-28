@@ -84,12 +84,20 @@ const sections: { title: string; items: CvItem[] }[] = [
         ],
       },
       {
-        years: '2021 – Now',
-        role: 'Technical Project Lead / Agentic Coding Coach',
+        years: '2024 – Now',
+        role: 'Agentic Coding Coach',
         place: 'Independent',
         location: 'Zürich',
         description:
-          'Leading and coaching multidisciplinary teams to develop impactful digital products. Helping developers and teams make agentic coding their advantage, from the fundamentals to advanced workflows.',
+          'Helping developers and teams make agentic coding their advantage, from the fundamentals to advanced workflows.',
+      },
+      {
+        years: '2021 – 2024',
+        role: 'Technical Project Lead',
+        place: 'Independent',
+        location: 'Zürich',
+        description:
+          'Leading and coaching multidisciplinary teams to develop impactful digital products.',
         tags: [
           'git',
           'docker',
