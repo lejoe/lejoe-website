@@ -70,6 +70,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         description:
           'Designing and building scalable software architectures and user interfaces that bridge technical requirements and user experience, using the latest AI coding tools.',
         tags: [
+          'agentic-coding',
           'react',
           'nextjs',
           'vue',
