@@ -12,6 +12,6 @@
 useSeoMeta({
   title: 'Joel Bez | Portfolio',
   description:
-    'Selected frontend and design-system projects by Joel Bez: Swisslos, FOCBS and Alpine AI.',
+    'Selected frontend and design-system projects by Joel Bez: Alpine AI, Swisslos and Zukunft-Zoll.',
 })
 </script>

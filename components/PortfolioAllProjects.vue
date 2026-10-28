@@ -60,7 +60,7 @@ const projects: Project[] = [
       'React, TypeScript, React Aria, Radix UI, Vite, Storybook, Vitest, Playwright',
   },
   {
-    client: 'FOCBS',
+    client: 'Zukunft-Zoll',
     years: '2025',
     project:
       'A recruitment marketing website for the Federal Office for Customs and Border Security.',

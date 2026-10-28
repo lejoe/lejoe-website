@@ -53,7 +53,7 @@ const projects: Project[] = [
       'I implemented a reusable design-system component library for the main website and its sub-brands as part of a rebranding, combining technical project management, solution architecture and hands-on implementation. The rebranding is not yet online.',
   },
   {
-    client: 'FOCBS',
+    client: 'Zukunft-Zoll',
     title: 'Recruitment website',
     years: '2025',
     summary:
