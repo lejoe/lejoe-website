@@ -25,7 +25,7 @@
 
 /* Print: A4 pages, smaller type, no entries split across pages */
 @page {
-  size: A4;
+  size: a4;
   margin: 16mm 18mm;
 }
 
