@@ -81,7 +81,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://zeix.com',
         location: 'Zürich · Part-time',
         description:
-          'Designing and building scalable software architectures and user interfaces that bridge technical requirements and user experience, using the latest AI coding tools.',
+          'Designing and building software architectures and user interfaces for client projects, using the latest agentic coding tools.',
         tags: [
           'agentic-coding',
           'react',
@@ -104,7 +104,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         place: 'Independent',
         location: 'Zürich',
         description:
-          'Helping developers and teams make agentic coding their advantage, from the fundamentals to advanced workflows.',
+          'Teaching developers and teams to work with agentic coding, from the fundamentals to advanced workflows.',
         tags: [
           'agentic-coding',
           'claude-code',
@@ -121,7 +121,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         place: 'Independent',
         location: 'Zürich',
         description:
-          'Leading and coaching multidisciplinary teams to develop impactful digital products.',
+          'Leading and coaching multidisciplinary teams that build digital products.',
         tags: [
           'git',
           'docker',
@@ -140,7 +140,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://ginetta.net',
         location: 'Zürich',
         description:
-          'Led engineering service expansion at Ginetta AG, growing the team by 50+ and acquiring seven-figure projects. Established Agile & DevOps practices for efficient delivery. Served as front-end lead on several key client projects.',
+          "Built up Ginetta's engineering services, growing the team by more than 50 people and winning seven-figure projects. Introduced agile and DevOps practices. Front-end lead on several client projects.",
         tags: [
           'git',
           'html',
@@ -163,14 +163,14 @@ const sections: { title: string; items: CvItem[] }[] = [
         place: 'Independent',
         location: 'Zürich & Silicon Valley',
         description:
-          'Empowered startups to deliver impactful products by streamlining development, prioritizing features, and fostering agile practices for efficient execution.',
+          'Helped startups prioritize features, organize development and adopt agile practices.',
       },
       {
         years: '2012',
         place: 'Sabbatical',
         location: 'Paris, Whistler, San Francisco',
         description:
-          'Explored lifestyles in other cities and their surroundings. Observation of the startup culture in Silicon Valley.',
+          'Lived in Paris, Whistler and San Francisco, and observed the startup culture in Silicon Valley.',
       },
       {
         years: '2011',
@@ -181,7 +181,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://liip.ch',
         location: 'Zürich',
         description:
-          'Drove product development from vision to launch as Technical Product Owner. Led cross-functional teams (UX, data science, development) to deliver successful products like map.local.ch.',
+          'Took products from vision to launch, leading cross-functional teams (UX, data science, development). Products included map.local.ch.',
       },
       {
         years: '2009 – 2010',
@@ -192,7 +192,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://www.liip.ch',
         location: 'Zürich',
         description:
-          'Led a team of expert front-end engineers for the Swiss Yellow Pages. Implemented new features & products following agile best practices and using cutting-edge web technologies.',
+          'Led the front-end team for local.ch, the Swiss Yellow Pages. Built new features and products using agile practices.',
         tags: [
           'git',
           'tdd',
@@ -214,7 +214,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://www.liip.ch',
         location: 'Zürich',
         description:
-          'Built, deployed, and maintained features for local.ch (top 3 Swiss website) following TDD & Scrum practices. Collaborated with UX & backend to deliver a seamless user experience.',
+          'Built, deployed and maintained features for local.ch, then one of the three most visited Swiss websites, using TDD and Scrum. Worked closely with the UX and backend teams.',
         tags: [
           'git',
           'tdd',
@@ -232,7 +232,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         place: 'Lesscode',
         location: 'Lausanne',
         description:
-          'Bootstrapped a web agency with classmates, building custom websites for SMBs (restaurants, music bands, associations). Led client requirements gathering, information architecture, and crafted CMS-based solutions.',
+          'Founded a web agency with classmates, building websites for small businesses such as restaurants, bands and associations. Handled requirements, information architecture and CMS-based implementation.',
         tags: ['php', 'svn', 'html', 'css', 'sql', 'jquery'],
       },
       {
@@ -242,7 +242,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://kesako.net',
         location: 'Lausanne',
         description:
-          "Developed websites for companies and Kesako's internal projects (etudiants.ch), collaborating with design & development teams.",
+          "Developed websites for clients and for Kesako's own projects, such as etudiants.ch, working with designers and developers.",
         tags: ['php', 'svn', 'html', 'css', 'sql'],
       },
     ],
@@ -264,7 +264,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://www.metropolia.fi/en',
         location: 'Helsinki',
         description:
-          'Exchange student program (ERASMUS) in Finland for my second year.',
+          "Spent the second year of my bachelor's studies in Finland.",
       },
       {
         years: '1998 – 2001',
@@ -286,7 +286,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://www.swissjs.com',
         location: 'Bern',
         description:
-          'Organized two editions of the JS conference for the Swiss community.',
+          'Organized two editions of the Swiss JavaScript conference.',
       },
       {
         years: '2011 – 2014',
@@ -295,7 +295,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://frontconference.com',
         location: 'Zürich',
         description:
-          "Co-founded and organized Switzerland's first front-end development conference. Attracted internationally renowned speakers and fostered a vibrant developer community through workshops and networking events.",
+          "Co-founded and organized Switzerland's first front-end development conference, with international speakers, workshops and networking events.",
       },
       {
         years: '2011 – 2014',
@@ -304,7 +304,7 @@ const sections: { title: string; items: CvItem[] }[] = [
         url: 'https://twitter.com/webtuesday',
         location: 'Zürich',
         description:
-          'Organized Webtuesday Zürich meetups, a leading monthly event for web developers. Curated engaging speakers, managed logistics, and fostered a vibrant community through social media and event moderation.',
+          'Organized Webtuesday, a monthly meetup for web developers in Zürich. Chose speakers, handled logistics, moderated events and ran its social media.',
       },
     ],
   },
