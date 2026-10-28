@@ -4,7 +4,23 @@ module.exports = {
   // add your custom config here
   // https://stylelint.io/user-guide/configuration
   rules: {
-    // Tailwind directives
-    'at-rule-no-unknown': [true, { ignoreAtRules: ['tailwind'] }],
+    // Tailwind CSS 4 directives
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          'theme',
+          'custom-variant',
+          'utility',
+          'variant',
+          'apply',
+          'source',
+          'plugin',
+          'reference',
+        ],
+      },
+    ],
+    // Tailwind resolves @import 'tailwindcss' only in string form
+    'import-notation': 'string',
   },
 }

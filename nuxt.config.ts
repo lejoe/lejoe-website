@@ -1,3 +1,5 @@
+import tailwindcss from '@tailwindcss/vite'
+
 const baseURL = process.env.BASE_URL
   ? process.env.BASE_URL
   : process.env.NUXT_ENV_VERCEL_URL
@@ -85,12 +87,9 @@ export default defineNuxtConfig({
     },
   },
 
-  // PostCSS configuration
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+  // Tailwind CSS
+  vite: {
+    plugins: [tailwindcss()],
   },
 
   // Google Fonts configuration
