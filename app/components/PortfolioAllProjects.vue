@@ -1,11 +1,11 @@
 <template>
   <section>
-    <h2 class="font-black font-big text-xl pb-6">PROJECT HISTORY</h2>
-    <ul class="grid grid-cols-1 gap-y-8">
+    <h2 class="font-black font-big text-xl pb-6 print:pb-3">PROJECT HISTORY</h2>
+    <ul class="grid grid-cols-1 gap-y-8 print:gap-y-4">
       <li
         v-for="project in projects"
         :key="project.client"
-        class="grid grid-cols-1 md:grid-cols-[10rem_1fr] gap-x-6 gap-y-1"
+        class="grid grid-cols-1 md:grid-cols-[10rem_1fr] gap-x-6 gap-y-1 print:grid-cols-[10rem_1fr]"
       >
         <div>
           <h3 class="text-xl">

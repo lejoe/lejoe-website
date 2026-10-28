@@ -1,8 +1,12 @@
 <template>
-  <div class="pt-12 md:pt-24 lg:pt-32 px-6 sm:px-12 md:px-12 font-sans">
-    <div class="xl:max-w-5xl max-w-4xl mx-auto overflow-hidden">
+  <div
+    class="pt-12 md:pt-24 lg:pt-32 px-6 sm:px-12 md:px-12 font-sans print:p-0"
+  >
+    <div
+      class="xl:max-w-5xl max-w-4xl mx-auto overflow-hidden print:max-w-none"
+    >
       <main><NuxtPage /></main>
-      <footer><TheFooter /></footer>
+      <footer class="print:hidden"><TheFooter /></footer>
     </div>
   </div>
 </template>

@@ -22,6 +22,5 @@
     <a href="https://github.com/lejoe" class="mx-4" aria-label="Github profile"
       >Github</a
     >
-    <a href="https://read.cv/lejoe" class="mx-4" aria-label="CV">CV</a>
   </nav>
 </template>
