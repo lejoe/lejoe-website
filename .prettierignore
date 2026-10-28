@@ -103,4 +103,4 @@ sw.*
 public/_favicons
 
 # Generated css file for fonts
-assets/css/fonts.css
+app/assets/css/fonts.css

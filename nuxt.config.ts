@@ -11,6 +11,11 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  // Keep inlining global CSS into the HTML, as Nuxt 3 did
+  features: {
+    inlineStyles: true,
+  },
+
   // Global CSS
   css: ['~/assets/css/main.css'],
 
@@ -106,6 +111,8 @@ export default defineNuxtConfig({
   // Robots configuration
   robots: {
     sitemap: baseURL + '/sitemap.xml',
+    // Keep listing noindex routes (e.g. /portfolio) as Disallow in robots.txt
+    disallowNonIndexableRoutes: true,
   },
 
   // PWA configuration
