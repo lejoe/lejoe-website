@@ -82,6 +82,7 @@ const sections: { title: string; items: CvItem[] }[] = [
           'vitest',
           'playwright',
           'craft-cms',
+          'n8n',
         ],
       },
       {
@@ -135,6 +136,7 @@ const sections: { title: string; items: CvItem[] }[] = [
           'angular',
           'vue',
           'react',
+          'react-native',
           'nextjs',
           'typescript',
           'devops',
