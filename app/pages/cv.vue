@@ -90,6 +90,15 @@ const sections: { title: string; items: CvItem[] }[] = [
         location: 'Zürich',
         description:
           'Helping developers and teams make agentic coding their advantage, from the fundamentals to advanced workflows.',
+        tags: [
+          'agentic-coding',
+          'claude-code',
+          'codex',
+          'cursor',
+          'skills',
+          'mcp',
+          'agentic-loops',
+        ],
       },
       {
         years: '2021 – 2024',
