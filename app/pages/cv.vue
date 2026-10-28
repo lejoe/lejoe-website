@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="pt-12 pb-12 print:pt-0 print:pb-4">
-      <h1 class="font-black font-big text-4xl pb-2">Joel Bez</h1>
+      <h1 class="text-3xl sm:text-4xl font-black font-big pb-2">JOËL BEZ</h1>
       <div>Zürich, Switzerland</div>
       <div class="hidden print:block">contact@lejoe.com · lejoe.com</div>
     </section>
