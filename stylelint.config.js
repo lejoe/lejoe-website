@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('stylelint').Config} */
+export default {
   // stylelint-config-recommended-vue sets the postcss-html syntax for .vue files
   extends: ['stylelint-config-standard', 'stylelint-config-recommended-vue'],
   // add your custom config here
