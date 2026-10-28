@@ -101,3 +101,6 @@ sw.*
 
 # RealFaviconGenerator files
 public/_favicons
+
+# Claude Code worktrees
+.claude/worktrees/
